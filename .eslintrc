@@ -1,0 +1,10 @@
+{
+  "extends": ["framelunch"],
+  "rules": {
+    // underscore開始の変数やプロパティを禁止する 無効化 思うところあって。
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    // アローファンクションの引数をカッコで囲むか 必要なときだけ
+    "arrow-parens": ["error", "as-needed"]
+  }
+}

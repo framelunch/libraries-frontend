@@ -1,0 +1,87 @@
+@font-face {
+    font-family: YuGothicM;
+    src: local("Yu Gothic Medium");
+}
+
+:root {
+    /*
+     * color(base)
+     */
+    --color-brand: #d23523;
+    --color-main: #f0f0f0;
+    --color-font: #111;
+
+    /*
+     * color(famous)
+     */
+    --color-red: #d23523;
+    --color-orange: #e23b0a;
+    --color-yellow: #e2a70a;
+    --color-pink: #e20ab1;
+    --color-blue: #3f52e2;
+    --color-green: #0ae251;
+    --color-emerald: #0ae2a7;
+    --color-gray: #777;
+
+    /*
+     * z-index
+     */
+    --z-lv-1: 1;
+    --z-lv-2: 10;
+    --z-lv-3: 100;
+    --z-lv-4: 1000;
+    --z-lv-5: 10000;
+    --z-lv-6: 100000;
+    --z-lv-7: 1000000;
+    --z-lv-8: 10000000;
+
+    /*
+     * font
+     * http://mw-s.jp/2017css-font-win-mac/
+     * http://silight.hatenablog.jp/entry/2015/07/02/214601
+     */
+    --fontFamily-base: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    --fontFamily-mincho: Georgia, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+    --fontFamily-mono: monospace, serif;
+    --fontWeight-normal: 400;
+    --fontWeight-bold: 700;
+
+    /*
+     * easing
+     */
+    --easeIn-sine: cubic-bezier(0.47, 0, 0.745, 0.715);         /* http://easings.net/ja#easeInSine */
+    --easeOut-sine: cubic-bezier(0.39, 0.575, 0.565, 1);        /* http://easings.net/ja#easeOutSine */
+    --easeInOut-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95);    /* http://easings.net/ja#easeInOutSine */
+    --easeIn-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);       /* http://easings.net/ja#easeInQuad */
+    --easeOut-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);       /* http://easings.net/ja#easeOutQuad */
+    --easeInOut-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);  /* http://easings.net/ja#easeInOutQuad */
+    --easeIn-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);     /* http://easings.net/ja#easeInCubic */
+    --easeOut-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);       /* http://easings.net/ja#easeOutCubic */
+    --easeInOut-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);    /* http://easings.net/ja#easeInOutCubic */
+    --easeIn-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);     /* http://easings.net/ja#easeInQuart */
+    --easeOut-quart: cubic-bezier(0.165, 0.84, 0.44, 1);        /* http://easings.net/ja#easeOutQuart */
+    --easeInOut-quart: cubic-bezier(0.77, 0, 0.175, 1);         /* http://easings.net/ja#easeInOutQuart */
+    --easeIn-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);     /* http://easings.net/ja#easeInQuint */
+    --easeOut-quint: cubic-bezier(0.23, 1, 0.32, 1);            /* http://easings.net/ja#easeOutQuint */
+    --easeInOut-quint: cubic-bezier(0.86, 0, 0.07, 1);          /* http://easings.net/ja#easeInOutQuint */
+    --easeIn-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);      /* http://easings.net/ja#easeInExpo */
+    --easeOut-expo: cubic-bezier(0.19, 1, 0.22, 1);             /* http://easings.net/ja#easeOutExpo */
+    --easeInOut-expo: cubic-bezier(1, 0, 0, 1);                 /* http://easings.net/ja#easeInOutExpo */
+    --easeIn-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);        /* http://easings.net/ja#easeInCirc */
+    --easeOut-circ: cubic-bezier(0.075, 0.82, 0.165, 1);        /* http://easings.net/ja#easeOutCirc */
+    --easeInOut-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);   /* http://easings.net/ja#easeInOutCirc */
+    --easeIn-back: cubic-bezier(0.6, -0.28, 0.735, 0.045);      /* http://easings.net/ja#easeInBack */
+    --easeOut-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);    /* http://easings.net/ja#easeOutBack */
+    --easeInOut-back: cubic-bezier(0.68, -0.55, 0.265, 1.55);   /* http://easings.net/ja#easeInOutBack */
+
+    /*
+     * layout
+     */
+    --width-pc: 1024px;
+    --width-sp: 768px;
+}
+
+/* breakpoints */
+@custom-media --tb (max-width: 1024px);
+@custom-media --sp (max-width: 768px);
+@custom-media --not-sp (min-width: 768px);
