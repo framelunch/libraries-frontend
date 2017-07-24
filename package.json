@@ -5,6 +5,7 @@
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
   "scripts": {
+    "build": "babel js -d 'lib/js/'",
     "check": "run-p typecheck lint",
     "typecheck": "flow",
     "lint": "run-p lint:*",
@@ -12,6 +13,10 @@
     "lint:style": "stylelint 'css/**/*.css'"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^3",
     "eslint-config-framelunch": "framelunch/eslint-config-framelunch",
     "flow-bin": "^0.49.1",
