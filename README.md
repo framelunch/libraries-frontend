@@ -2,23 +2,6 @@
 
 フレームランチのよく使われるコード集(フロント用)
 
-## 依存
-
-### JS
-
-- babel
-    - babel-preset-flow
-    - babel-preset-env
-    - babel-plugin-transform-object-rest-spread
-
-### CSS
-
-- PostCSS
-    - postcss-import
-    - postcss-custom-media
-    - postcss-custom-properties
-    - postcss-nested
-
 ## 使い方
 
 ### インストール
@@ -37,8 +20,8 @@ yarn add framelunch/libraries-frontend-framelunch#v0.0.1
 import notice from '../libs/notice';
 import state from '../libs/state';
 # after 🌻
-import notice from 'libraries-frontend-framelunch/js/notice';
-import state from 'libraries-frontend-framelunch/js/state';
+import notice from 'libraries-frontend-framelunch/lib/js/notice';
+import state from 'libraries-frontend-framelunch/lib/js/state';
 ```
 
 ### CSS使用例

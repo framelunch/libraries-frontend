@@ -5,12 +5,12 @@
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
   "scripts": {
-    "build": "babel js -d 'lib/js/'",
+    "build": "babel 'source/js' -d 'lib/js/'",
     "check": "run-p typecheck lint",
     "typecheck": "flow",
     "lint": "run-p lint:*",
-    "lint:script": "eslint --ext .jsx,js js/",
-    "lint:style": "stylelint 'css/**/*.css'"
+    "lint:script": "eslint --ext .jsx,js source/js/",
+    "lint:style": "stylelint 'source/css/**/*.css'"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
