@@ -10,7 +10,7 @@
 # newest version
 yarn add framelunch/libraries-frontend-framelunch
 # target version
-yarn add framelunch/libraries-frontend-framelunch#v0.0.1
+yarn add framelunch/libraries-frontend-framelunch#v0.1.2
 ```
 
 ### JS使用例
