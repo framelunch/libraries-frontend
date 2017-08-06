@@ -1,26 +1,26 @@
 {
   "name": "libraries-frontend-framelunch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
   "scripts": {
-    "build": "babel 'source/js' -d 'lib/js/'",
+    "build": "babel 'source/js' -d 'js/'",
     "check": "run-p typecheck lint",
     "typecheck": "flow",
     "lint": "run-p lint:*",
     "lint:script": "eslint --ext .jsx,js source/js/",
-    "lint:style": "stylelint 'source/css/**/*.css'"
+    "lint:style": "stylelint 'css/**/*.css'"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-flow": "^6.23.0",
-    "eslint": "^3",
+    "eslint": "^4.4.0",
     "eslint-config-framelunch": "framelunch/eslint-config-framelunch",
-    "flow-bin": "^0.49.1",
-    "flow-typed": "^2.1.2",
+    "flow-bin": "^0.52.0",
+    "flow-typed": "^2.1.5",
     "npm-run-all": "^4.0.2",
     "stylelint-config-framelunch": "framelunch/stylelint-config-framelunch"
   }

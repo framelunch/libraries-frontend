@@ -20,8 +20,8 @@ yarn add framelunch/libraries-frontend-framelunch#v0.0.1
 import notice from '../libs/notice';
 import state from '../libs/state';
 # after 🌻
-import notice from 'libraries-frontend-framelunch/lib/js/notice';
-import state from 'libraries-frontend-framelunch/lib/js/state';
+import notice from 'libraries-frontend-framelunch/js/notice';
+import state from 'libraries-frontend-framelunch/js/state';
 ```
 
 ### CSS使用例
@@ -43,10 +43,3 @@ import state from 'libraries-frontend-framelunch/lib/js/state';
 @import "~libraries-frontend-framelunch/css/_reset.css";
 ```
 
-## TODO
-
-- [ ] ビルドかます
-    - JS: ES5
-        - 別途型ファイルも吐く
-    - CSS: CSS3
-        - font-awesomeみたいな形になってると楽だね
