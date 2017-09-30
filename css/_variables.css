@@ -5,25 +5,6 @@
 
 :root {
     /*
-     * color(base)
-     */
-    --color-brand: #d23523;
-    --color-main: #f0f0f0;
-    --color-font: #111;
-
-    /*
-     * color(famous)
-     */
-    --color-red: #d23523;
-    --color-orange: #e23b0a;
-    --color-yellow: #e2a70a;
-    --color-pink: #e20ab1;
-    --color-blue: #3f52e2;
-    --color-green: #0ae251;
-    --color-emerald: #0ae2a7;
-    --color-gray: #777;
-
-    /*
      * z-index
      */
     --z-lv-1: 1;
@@ -34,6 +15,8 @@
     --z-lv-6: 100000;
     --z-lv-7: 1000000;
     --z-lv-8: 10000000;
+    --z-lv-9: 100000000;
+    --z-lv-10: 1000000000;
 
     /*
      * font
@@ -75,13 +58,15 @@
     --easeInOut-back: cubic-bezier(0.68, -0.55, 0.265, 1.55);   /* http://easings.net/ja#easeInOutBack */
 
     /*
-     * layout
+     * famous layouts
      */
-    --width-pc: 1024px;
-    --width-sp: 768px;
+    --width-ipad-horizontal: 1024px;
+    --width-ipad-vertical: 768px;
+    --width-ipadPro10inch-horizontal: 1112px;
+    --width-ipadPro10inch-vertical: 834px;
 }
 
 /* breakpoints */
 @custom-media --tb (max-width: 1024px);
-@custom-media --sp (max-width: 768px);
+@custom-media --sp (max-width: 767px);
 @custom-media --not-sp (min-width: 768px);
