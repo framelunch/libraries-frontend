@@ -30,16 +30,13 @@ import state from 'libraries-frontend-framelunch/js/state';
 /* before */
 @import "./modules/_variables.css";
 @import "./modules/_keyframes.css";
+@import "./modules/_mixins";
 @import "./modules/_reset.css";
 
-/* after(微妙) */
-@import "../../node_modules/libraries-frontend-framelunch/css/_variables.css";
-@import "../../node_modules/libraries-frontend-framelunch/css/_keyframes.css";
-@import "../../node_modules/libraries-frontend-framelunch/css/_reset.css";
-
-/* after(TODO: これでいけると思ったけどダメだった) */
-@import "~libraries-frontend-framelunch/css/_variables.css";
-@import "~libraries-frontend-framelunch/css/_keyframes.css";
-@import "~libraries-frontend-framelunch/css/_reset.css";
+/* after*/
+@import "libraries-frontend-framelunch/css/_variables.css";
+@import "libraries-frontend-framelunch/css/_keyframes.css";
+@import "libraries-frontend-framelunch/css/_mixins.css";
+@import "libraries-frontend-framelunch/css/_reset.css";
 ```
 
