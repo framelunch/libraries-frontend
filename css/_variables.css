@@ -17,6 +17,16 @@
     --z-lv-8: 10000000;
     --z-lv-9: 100000000;
     --z-lv-10: 1000000000;
+    --z-behindLv-1: -1;
+    --z-behindLv-2: -10;
+    --z-behindLv-3: -100;
+    --z-behindLv-4: -1000;
+    --z-behindLv-5: -10000;
+    --z-behindLv-6: -100000;
+    --z-behindLv-7: -1000000;
+    --z-behindLv-8: -10000000;
+    --z-behindLv-9: -100000000;
+    --z-behindLv-10: -1000000000;
 
     /*
      * font
@@ -26,8 +36,15 @@
     --fontFamily-base: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
     --fontFamily-mincho: Georgia, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
     --fontFamily-mono: monospace, serif;
-    --fontWeight-normal: 400;
+    --fontWeight-thin: 100;
+    --fontWeight-extraLight: 200;
+    --fontWeight-light: 300;
+    --fontWeight-regular: 400;
+    --fontWeight-medium: 500;
+    --fontWeight-semiBold: 600;
     --fontWeight-bold: 700;
+    --fontWeight-extraBold: 800;
+    --fontWeight-black: 900;
 
     /*
      * easing
@@ -60,10 +77,10 @@
     /*
      * famous layouts
      */
-    --width-ipad-horizontal: 1024px;
-    --width-ipad-vertical: 768px;
-    --width-ipadPro10inch-horizontal: 1112px;
-    --width-ipadPro10inch-vertical: 834px;
+    --size-ipad-long: 1024px;
+    --size-ipad-short: 768px;
+    --size-ipadPro10inch-long: 1112px;
+    --size-ipadPro10inch-short: 834px;
 }
 
 /* breakpoints */
