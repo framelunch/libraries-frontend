@@ -83,7 +83,8 @@
     --size-ipadPro10inch-short: 834px;
 }
 
-/* breakpoints */
-@custom-media --tb (max-width: 1024px);
+/* major breakpoints */
 @custom-media --sp (max-width: 767px);
+@custom-media --tb (min-width: 768px) and (max-width: 1024px);
 @custom-media --not-sp (min-width: 768px);
+
