@@ -1,6 +1,6 @@
 {
   "name": "libraries-frontend-framelunch",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "index.js",
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
