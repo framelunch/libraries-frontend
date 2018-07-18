@@ -19,12 +19,12 @@
     "babel-preset-flow": "^6.23.0",
     "eslint": "^4.4.0",
     "eslint-config-framelunch": "framelunch/eslint-config-framelunch",
-    "flow-bin": "^0.52.0",
+    "flow-bin": "^0.76.0",
     "flow-typed": "^2.1.5",
     "npm-run-all": "^4.0.2",
     "stylelint-config-framelunch": "framelunch/stylelint-config-framelunch"
   },
   "dependencies": {
-    "sanitize.css": "^5.0.0"
+    "sanitize.css": "^6.0.0"
   }
 }
